@@ -1,2 +1,224 @@
 Rich Media Optimization
+	By the end of this course, students will have an udnerstanding of the following topics
+		The basics of digital audio and video editiong
+		Analyze each scenario and apply optimization techniques depending on the desired output.
+		The importance of the save for web panel and all of its capabilities.
+		Recognize the differences between rich media formats and codecs.
+		Provide cross browser implementations supporting safe exploration, content degradation and fallback implentations.
+	
+	Required Applications
+		Adobe CC
+			Audition
+				Sound editing
 
+			Premier
+				Video editing
+
+			After Effects
+				Video Effects
+
+			Adobe Media Encoder
+				Process the video
+
+	Required Hardware
+		Video camera or mobile phone with video recording capabilities
+		Working microphone
+		3GB of disk space
+		Headphones
+
+
+	Class Policies
+		Attendance
+			64 hour course
+			Can miss 6 hours
+		Labs
+			Due at beginning of lecture
+			25% deduction per day late
+
+	Contact Information
+		Slack
+			#rmo1605
+			@harbuckle
+		Preferred phone
+			330.647.6227
+		harbuckle@fullsail.com
+
+Projct Details
+	What is the project?
+		You will work on planning, shooting, recording, editing, and publishing a video to the web.
+		
+	Why Video?
+		How time do you spend watching video online per day?
+		Video is fast becoming a critical part of the web:
+			Online video is a $5.75 billion industry
+			204.2 million people (78.6% of US internet users) watch online video monthly.
+			Amount of time users spend watching online video has grown 38.5% in the past 2 years
+		
+	Minimum Requirements
+		Fairly minimal and open; you decide on the scope and topic
+		Feedback from your peets and instructor will be given throughout the process in order to refine and produce a professional piece.
+	
+			Must be at least 3 minutes in length,
+			Must include a voiceover/narration,
+			Must include background music,
+			And must include 2 animations created in After Effects.
+
+	Topics
+		The topic for the video is up to you; here are a few possibilities:
+			Demo Reel
+			Tutorial
+			Project overview
+			How to video
+			Public Service Announcement
+		Be creative. Do something that may feel out of your element.
+
+	Process
+		Week 1: Planning Scripting
+		Week 2: Shooting and Recording Audio
+		Week 3: Editing and Motion Graphics
+		Week 4: Final Editing and Publication
+
+
+Why Optimize?
+	Why Optimize?
+		Most consumers wait about 3 seconds for a website to load on a desktop or a laptop.
+		and about 5 seconds on their mobile device.
+		Amazon found that if their pages slow down by 1 second, they lose $1.6 billion a year.
+		Google uses page load time as a factor in their ranking algorithm.
+
+	"Image optimzation is both an art and science: an art 
+	because there is no one definitive answer for how best to compress 
+	an individual image, and a science because there are many well
+	developed techniques and algorithms that can significantly
+	reduce the size of an image." - developers.google.com
+
+	First Steps
+		Eliminate unnecessary image resources
+		Leverage CSS3 effects where possible
+		USe web fonts instead of encoding text in images
+
+	Lossless Compression
+		Retains all of the data of the original file as it's converted
+		to a smaller file size
+	
+		Algorithms restore all compressed information, creating a 
+		duplicate of the source file.
+
+	Run-Length Encoding
+		Sequences that have the same data/value occuring in many
+		consecutive data elements are stored as a single data value
+		and count.
+
+		This is most useful on relatively simple graphics images
+		such as icons, line drawings, and animations.
+
+		It is not recommended for use with files that don't
+		have many runs as it could potentially double the file size.
+
+
+	Lossy Compression
+		Some of teh source file's information is discarded to conserve
+		Space.
+	
+		When decompressed, this information is reconstructed through
+		algorithms, usually resulting in some loss of sound quality
+		or image detail.
+
+		Generally, the higher the resolution of the compressing file,
+		the less the degradation.
+
+	Chroma Subsampling
+		Encoding images by implementing less resolution for chroma information.
+
+			Luma = brightness
+			Chroma = color
+		
+		It is used in both analog and digital video encoding schemes
+		and certain types of jpeg encoding
+
+		The human is is more sensitive to variations in brightness
+		than color
+
+	Raster Graphics
+		Grid of Pixels
+		Larger the image = larger file size
+		Increased # of pixels = increased resolutions
+		Larger than a vector files.
+		Difficult to modify without loss of information
+
+	Vector Graphics
+		Generated using drawing or illustration programs.
+		
+		Composed of mathematically - defined geometric shapes
+		lines, objects and fills.
+
+		Infinite scalability with smaller file size
+
+	SVGS
+		Infinite resolution and very small file sizes
+		
+		Stores images as a series of coordinates that form shapes
+		rather than pixel data.
+			XML can be embed directly on the page, or as an external resource.
+		supported in all modern browsers.
+
+	
+	Image Formats
+		Max Colors
+			GIF = 256
+			JPG = 16.6 million
+			PNG = > 16.8 million
+		Transperancy
+			GIF = yes
+			JPG = no
+			PNG = yes
+		Compression Method
+			GIF = lossless
+			JPG = Lossy
+			PNG = lossless
+
+	When to Use...
+		JPG
+			Photos, images with gradients
+		GIF
+			images with text, simple shapes and crisp edges
+			blocks of solid color or animation
+		PNG
+			images with transparency, flat/solid colors
+			simple shapes and crisp edges
+
+	The Future?
+		FLIF - Free Lossless Image Format
+		
+			35% smaller than typical PNG files
+			37% smaller than lossless JPEG 2000 compression
+			
+			Works well on any kind of image, so the user does
+			not need to try different algorithms and parameters
+	
+			Supports progressive decoding
+			Royalty-free
+
+	Color Depth
+		Number of bits used to represent the color of a single pixel
+		in a bitmapped image
+	
+		Higher color depth gives a broader range of distinct colors
+
+		Color Depth - # of colors - color mode - palette
+		1	      2		    indexed	 yes
+		4	      16	    indexed	 yes
+		8	      256	    indexed	 yes
+		24	      16,772,216    true color   yes
+
+
+	Online Image Optimizers
+		kracken.io
+		punypng
+		smush.it
+		tinypng
+		jpegmini
+		compressor.io
+		gifsicle
+
+	
