@@ -1,0 +1,150 @@
+Audio Basics
+	What is Sound?
+		Vibrations traveling through the air.
+		
+	Analog vs Digital
+		All sound you hear is analog audio.
+		Digital audio is data visually displayed on a screen.
+
+	Waveform
+		Shows waves of air pressure.
+		line swings up to a peak = higher pressure
+		Zero line is the pressure of the air at rest.
+		Line swings down to a through = lower pressure
+
+		If a waveform's peaks and throughs are perfectly in phase.
+		They reinforce each other, resulting in a waveform that has higher amplitude that neither individual waveform.
+
+		If the peaks and throughs are peftectly out of phase.
+		They cancel each other out
+
+	Noise cancellation
+		Uses in every day life:
+			Noise cancelling headphones
+			Car industry
+
+		
+	Frequency
+		The rate at which a sound wave vibrates.
+			Measured in cycles per second hertz. (Hz)
+
+	Do you know the range of human hearing?
+		20Hz - 20KHz
+
+	Sampling Rate
+		Measured used when digitally capturing a sound (Hz)
+			More points collected per second = more accurate sound
+			
+			Low sampling rate
+				distorts the original signal
+			
+			High sampling rate
+				accurately reproduces original signal
+
+	Decibles (dB)
+		Unit to measure the intensity of a sound
+		
+		Sound Type	decibel level
+		total silence	0dB
+		whisper		16dB
+		normal convo	60dB
+		lawnmower	90dB
+		car horn	110dB
+		jet engine	120dB
+
+	Bit Depth
+		Dynamic range of an audio file (dB)
+		More bits = wider range of volume
+
+		bit depth	quality level	amplitude	dynamic
+		8 bit		telephone	256		48dB
+		16 bit		CD		65,536		96dB
+		24 bit		DVD		16,777,216	144dB
+		32bit		Best		4,294,967,296	192dB
+
+	Channels
+		Mono
+		Stereo
+
+		One or more individual audio segments often combied with a single piece of content.
+			Every piece of audio has at least one audio channel.
+
+	Peaking/Clipping
+		If you try to push an audio signal that is too loud through your computer or audio recorder, your audio
+		will peak.
+
+		To Fix:
+			Lower your microphone's input volume
+			Move your microphone further from the audio source.
+
+	Audio Recording Techniques
+		Use a quality microphone.
+		Add narration in a controlled environment/limit background noise.
+		Monitor the sound throughout the entire recording.
+		Use subjects with consistent volume.
+
+
+	Audio Editing Apps
+		Audition
+		Audacity
+		Pro Tools 11
+		Garage Band
+
+
+Video Basics
+	Captured video
+	After Effects/Animation
+	Screencasting
+	Presentation Software
+
+	Eadweard Muybridge
+		Hired to study whether all four feet of a horse were off the ground at the same time while trotting
+		and galloping.
+
+		Up until this time, most artists painted horses at a trot with one foot always on the ground; 
+		gallop with all feet off the ground.
+
+
+		Photographed a horse named "Occident" in fast motion using a series of 12 stereoscopic cameras at the 
+		Palo Alto farm in California.
+
+		Cameras were arranged along a track and each camera's shutter was controlled by a tripwire which was 
+		triggered by the horse's hooves.
+
+		Copied the images in the form of silhouettes onto a disc to be viewd in a machine he had invented. called
+		a zoopraxiscope.
+
+		Considered the first movie projector.
+
+	Video Frames
+		Video is made up of still images in sequence to produce the illusion of motion.
+
+	Frame Rate
+		Number of still pictures used to generate one second of video.
+
+		24 fps
+			standard/cinematic view
+			more blur
+		
+		30 fps (29.97)
+			American tv broadcast
+
+		48 or 60fps
+			real time = less motion blur, crisper images
+			HD slow motion
+
+	Scan Lines
+		Interlaced
+		Odd then even horizontal scan lines of each frame are drawn alternately.
+
+	Scanning Lines
+		Progressive
+		Lines of each frame are drawn in sequence
+
+	Video Editting Software
+		iMovie
+		Premier
+		Premier Clip
+		After Effects
+
+
